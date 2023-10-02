@@ -1,3 +1,52 @@
-/* 
-    General Styles
-*/
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/71/813/desktop-wallpaper-white-space-aesthetic-top-white-space-black-and-white-space-aesthetic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.single-card {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.single-image {
+    height: 100%;
+    object-fit: cover;
+}
+.single-header {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.single-info-text {
+    font-size: 24px
+}
+.card-img-top {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 30%;
+    overflow: hidden;
+}
+
+.img-starship {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 0%;
+        overflow: hidden;
+}    
+
+.card-row {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+.heart {
+    margin-left: 10px;
+}
