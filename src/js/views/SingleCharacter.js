@@ -9,7 +9,7 @@ export const SingleCharacter = (props) => {
     return(
         <div className="container-fluid">
             <div className="row my-3">
-                <h2>Characters<span className="text-black"> / {characters[id]?.name}</span></h2>
+                <h2>Characters<span className="text-white"> / {characters[id]?.name}</span></h2>
             </div>
             <div className="row bg-secondary m-5 border border-light single-card">
                 <div className="row">

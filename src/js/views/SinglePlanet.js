@@ -10,7 +10,7 @@ export const SinglePlanet = (props) => {
     return(
         <div className="container-fluid">
             <div className="row my-3">
-                <h2>Planets<span className="text-dark"> / {planets[id]?.name}</span></h2>
+                <h2>Planets<span className="text-white"> / {planets[id]?.name}</span></h2>
             </div>
             <div className="row bg-secondary m-5 border border-secondary single-card">
                 <div className="row">
